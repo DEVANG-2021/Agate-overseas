@@ -1,3 +1,4 @@
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -99,9 +100,9 @@ h6 {
 }
 
 #header .logo img {
-  /* max-height: 100px; */
-  height: 110px;
-  width: 130px;
+  max-height: 90px;
+  
+  width: 170px;
   border-radius: 0px;
 }
 
@@ -393,7 +394,7 @@ h6 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 44px;
-  font-style: italic;
+
   
 }
 
@@ -424,11 +425,14 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 7vw;
+    margin: 10px;
+    line-height: 70px;
+
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 7vw;
     line-height: 24px;
   }
 }
@@ -623,7 +627,7 @@ section {
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .get-started-btn:hover {
   background: #111111;
@@ -764,6 +768,10 @@ section {
 /*--------------------------------------------------------------
 # Tabs
 --------------------------------------------------------------*/
+
+.img-fluid{
+  border-radius: 15px;
+}
 .tabs .nav-tabs {
   border: 0;
   justify-content: space-between;
@@ -775,7 +783,7 @@ section {
 }
 .tabs .nav-link {
   border: 1px solid #b9b9b9;
-  padding: 15px;
+  padding: 8px;
   transition: 0.3s;
   color: #111111;
   border-radius: 0;
@@ -783,11 +791,12 @@ section {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .tabs .nav-link i {
   padding-right: 25px;
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .tabs .nav-link img {
@@ -952,7 +961,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  margin-top: 10px;
+  margin-top: 7px;
   color: #e03a3c;
   font-size: 40px;
   line-height: 0;
@@ -1204,9 +1213,10 @@ background: #e03a3c;
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
+  /* box-sizing: border-box; */
   padding: 30px;
   margin: 30px 15px;
-  min-height: 200px;
+  min-height: 350px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -2306,3 +2316,89 @@ background: #e03a3c;
    height : 150px;
    width: 150px;
 }
+
+/* my code */
+.core {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.value {
+  width: 380px;
+  height: 190px;
+  /* background-color: #fcfcfc; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 30px;
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+}
+
+
+.value h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #3dbd99;
+  background: linear-gradient(to right, #f32170, #ff6b08);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.value p{
+  text-align: start;
+  margin-top: 10px;
+}
+.value:nth-child(2) {
+  grid-area: two;
+}
+
+.value:nth-child(3) {
+  grid-area: three;
+}
+
+.value:nth-child(4) {
+  grid-area: four;
+}
+
+.value:nth-child(5) {
+  grid-area: five;
+}
+
+s .value:nth-child(6) {
+  grid-area: six;
+}
+
+#mainheading {
+
+  text-align: center;
+  padding-block: 0px;
+  font-size: 10vw;
+  color: #dbdbdb91;
+  transform: translateY(0px);
+  z-index: -99;
+}
+
+@media only screen and (max-width: 855px) {
+  .value {
+      width: 100%;
+      height: auto;
+      background-color: #fcfcfc;
+      padding: 10px;
+      margin: 0px 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      border-radius: 30px;
+  }
+}
+/* end my code */
