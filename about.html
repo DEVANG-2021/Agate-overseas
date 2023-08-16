@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About Us   </title>
+
+
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+</head>
+<style>
+ about-h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #e03a3c;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.about .content {
+  padding: 30px 0px 0px 0px;
+  
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    /* color: red; */
+    background-color: #2b2b2b;
+    display: flex;
+    padding-bottom: 100px;
+    padding-block: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-image: url(slider/bb.png); */
+    background-size: 100%;
+    margin-bottom: 0px;
+  
+    border-radius: 15px;
+}
+
+
+.service .video {
+    /* background-color: #2f997b; */
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    overflow: hidden;
+}
+
+.service .video img {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 20%;
+}
+
+.service .video img:hover {
+    opacity: 0.7;
+}
+
+
+.service .item {
+    width: 100%;
+    height: auto;
+    /* background-color: antiquewhite; */
+    padding: 2vw 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.service .item .i {
+    width: 100%;
+    height: auto;
+    /* background-color: #fcfcfc; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 5px rgb(241, 241, 241); */
+    margin: 5px 0px;
+    transition: 0.2s;
+    /* box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.678); */
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+}
+
+
+
+.service .item .i div p {
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+.service .item .i div {
+    /* background-color: #141414; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.service .item .i img {
+
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.service .item .i div .tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.service .item .i div .tags b {
+    font-size: 100%;
+    padding: 10px 13px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: solid 2px rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.service .item .i div .tags b:hover {
+    background-color: #e03a3c;
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+
+
+    .service .item .i {
+        width: 100%;
+        height: auto;
+        /* background-color: #fcfcfc; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        border-radius: 30px;
+        /* box-shadow: 0px 0px 5px rgb(241, 241, 241); */
+        margin: 5px 0px;
+        transition: 0.2s;
+        /* box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.678); */
+        backdrop-filter: blur(7.1px);
+        -webkit-backdrop-filter: blur(7.1px);
+    }
+
+    .service .video img {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 30%;
+    }
+
+
+    .service .item .i div .tags b {
+        font-size: 80%;
+        padding: 10px 13px;
+        text-decoration: none;
+        
+        border-radius: 30px;
+        margin-right: 10px;
+        margin-top: 8px;
+        border: solid 2px rgb(226, 226, 226);
+        color: white;
+        cursor: pointer;
+
+    }
+
+ 
+
+}
+
+.cta {
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-radius: 15px;
+  background-color: #2b2b2b;
+  
+}
+
+.cta .container {
+  padding: 80px;
+  background: rgba(var(--color-secondary-rgb), 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center; 
+}
+
+
+  
+@media (max-width: 992px) {
+  .cta .container {
+    padding: 60px;
+  }
+}
+
+.cta .content h3 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.cta .content h3 em {
+  font-style: normal;
+  position: relative;
+}
+
+.cta .content h3 em:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 10px;
+  background: rgba(var(--color-danger), 0.5);
+  z-index: -1;
+}
+
+.cta .content p {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cta .content .cta-btn {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 12px;
+  transition: 0.5s;
+  margin-top: 8px;
+  background: black;
+}
+
+.cta .content .cta-btn:hover {
+  background: #e03a3c;
+  border: 2px solid white;
+
+}
+
+.cta .img {
+  position: relative;
+}
+
+.cta .img:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(var(--color-white-rgb), 0.5);
+  border-radius: 15px;
+  transform: rotate(12deg);
+}
+
+.cta .img:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(var(--color-white-rgb), 0.9);
+  border-radius: 15px;
+  transform: rotate(6deg);
+}
+
+.cta .img img {
+  position: relative;
+  z-index: 3;
+  border-radius: 15px;
+}
+
+.about .content .p1{
+  text-align: left;
+}
+
+.align-self-start{
+  align-items: start;
+}
+
+.align-self-start{
+  align-self: center !important;
+}
+@media only screen and (max-width: 650px) {
+  .about .container{
+     padding: 0px 30px;
+  }
+
+  .service .item .i div .tags b {
+    color: black;
+  }
+
+  .cta{
+    padding: 50px 0px;
+  }
+
+  .about .content .p1{
+  text-align: center;
+}
+
+#about-title{
+  text-align: center;
+}
+
+.align-self-start{
+  align-self: center !important;
+}
+
+}
+
+
+</style>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    
+    <!-- <div class="container logo-sec d-flex align-items-center mx-auto"> -->
+      
+    <!-- </div> -->
+  
+    <div class="container d-flex align-items-center">
+      <!-- <h1 class="logo me-auto"><a href="index.html">Presento<span>.</span></a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="" class="logo me-auto" ><img src="assets/img/home/logo.png" class="" alt=""></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        
+        <ul>
+          <li><a class="nav-link scrollto active" href="">HOME</a></li>
+          <li><a class="nav-link scrollto" href="">ABOUT US</a></li>
+          <li class="dropdown"><a href=""><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+              <li class="dropdown"><a href="services1.html"><span>IMMIGRATE TO CANADA</span> </a>
+                <!-- <ul>
+                  <li><a href="">EXPRESS ENTRY</a></li>
+                  <li><a href="">PROVINCIAL NOMINEE</a></li>
+                  <li><a href="">CANADIAN BUSINESS IMMIGRANT INVESTOR PROGRAM</a></li>
+                  <li><a href="">FAMILY SPONSERSHIP</a></li>
+                  <li><a href="">IN-HOME CAREGIVERS</a></li>
+                  <li><a href="">REFUGEE IMMIGRATION SERVICES</a></li>
+                  <li><a href="">CITIZENSHIP</a></li>
+                </ul> -->
+              </li>
+              <li class="dropdown"><a href="services2.html"><span>STUDY IN CANADA</span></a>
+                <!-- <ul>
+                  <li><a href="">STUDENT PERMIT</a></li>
+                  <li><a href="">POST GRADUATION WORK PERMIT</a></li>
+                  <li><a href="">SPOUSE OR FAMILY</a></li>
+                </ul> -->
+              </li>
+              <li><a href="services3.html">WORK IN CANADA</a></li>
+              <li class="dropdown"><a href="services4.html"><span>BUSINESS IMMIGRATION PROGRAM</span> </a>
+                <!-- <ul>
+                  <li><a href="">START-UP VISA INVESTOR PROGRAM</a></li>
+                  <li><a href="">ENTREPRENEUR PROGRAM</a></li>
+                  <li><a href="">SELF-EMPLOYED PERSONS PROGRAM</a></li>
+                  <li><a href="">BUSINESS PNP</a></li>
+                  
+                </ul> -->
+              </li>
+              <li><a href="services5.html">TAVEL/VISITOR VISA & SUPER VISA</a></li>
+              
+             
+              
+            </ul>
+          </li>
+          <!-- <li class="dropdown"><a href="#services"><span>SERVICE AREAS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="">CANADA</a></li>
+              <li><a href="">INDIA</a></li>
+              <li><a href="">PHILIPPINES</a></li>
+              <li><a href="">GHANA</a></li>
+              <li><a href="">NIGERIA</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto " href="testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="blogs.html">BLOG</a></li>
+          
+          <!-- <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="contact.html" class="get-started-btn scrollto">CONTACT US</a>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Header ======= -->
+  <main id="main">
+
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          
+            <div class="content" >
+              <h3 class="about-h3" style="text-align: center;">ABOUT AGATE OVERSEAS SOLUTIONS</h3>
+             
+            </div>
+         
+          <div class="service">
+           
+            <div class="item">
+    
+    
+                <div class="i">
+                    <!-- <img src="Slider/engineer (1).png" alt=""> -->
+                    <div>
+                        <!-- <p>Services</p> -->
+                        <div class="tags">
+                            <b> Canada Immigration</b>
+                            <b> Family/Spousal Sponsership</b>
+                            <b>Express Entry</b>
+                            <b>Work Permit</b>
+                            <b>Canadian Citizenship</b>
+                            <b> Labour Market Impact Assessment</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <section id="cta" class="cta ">
+          <div class="container" data-aos="zoom-out">
+    
+            <div class="row g-5">
+    
+              <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-left order-last order-md-first" style="display: flex;justify-content: left;text-align: left;">
+                <h3 id="about-title"> <em>About Us</em> </h3>
+                <p class="p1">Agate Immigration Solutions is endowed with the prime goal of providing quality Canadian immigration consultancy services for migrants from all corners of the globe. We follow a unique approach as each individual is different. We deeply analyze your profile and suggest appropriate measures that maximize your chances of getting a visa. When it comes to Canadian Immigration, time is the essence. You need to be ready with all the required documents.</p>
+                <p class="p1"> Don't miss your opportunity to study and live in Canada - Let us help you!</p>
+                <p class="p1">We will make sure to give you excellent guidance and that you are ahead of the crowd. We will ensure your applications are prepared and submitted in a timely manner so that you avoid delays and disappointment. So what are you waiting for! Get in touch with us and explore your opportunity and make it HAPPEN. Remember Agate is 'a gate' to your success.</p>
+                <a class="cta-btn align-self-start" href="#">info@agateoverseas.com</a>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
+                <div class="img">
+                  <img src="assets/img/home/ser.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+       
+          <!-- End .content-->
+        </div>
+
+      </div>
+    </section>
+
+    
+    
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><img src="assets/img/home/logo1.png" class="" alt="" style="width:200px;height: auto;border-radius: 10px;margin-bottom: 10px;"></h3>
+            <p>
+             
+              India:GF-11, Shilalekh Tower B/H Railway Station,<br>
+               PIN- 390007, India<br>
+                 <br><br>
+            
+             
+              <strong>Email:</strong>info@agateoverseas.com<br>
+              
+            </p>
+            <p>
+             
+            </p>
+          </div>
+  
+           <!-- <div class="col-lg-3 col-md-6 footer-links">
+          
+          </div> -->
+          
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services1.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="testimonials.html">Testimonials</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blogs.html">Blogs</a></li>
+            </ul>
+          </div>
+  
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="">Graphic Design</a></li>
+            </ul>
+          </div> -->
+  
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter"> -->
+            <!-- <h4>Join Our Newsletter</h4> -->
+            <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
+            <!-- <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div> -->
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="container d-md-flex py-4">
+  
+      <div class="me-md-auto text-center text-md-start">
+        <!-- <div class="copyright">
+          &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
+        </div> -->
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <!-- <a href="" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+        <a href="" class="facebook"><i class="bx bxl-facebook"></i></a>
+        
+        <a href="" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <!-- <a href="" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+        <!-- <a href="" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
