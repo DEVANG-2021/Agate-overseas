@@ -1,0 +1,123 @@
+
+
+.about1 .about1-img {
+    position: relative;
+    margin: 60px 0 0 60px;
+  }
+  
+  .about1 .about1-img:before {
+    position: absolute;
+    inset: -60px 0 0 -60px;
+    z-index: -1;
+    content: "";
+    background: url("../img/about-bg.png") top left;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 575px) {
+    .about1 .about1-img {
+      margin: 30px 0 0 30px;
+    }
+  
+    .about1 .about1-img:before {
+      inset: -30px 0 0 -30px;
+    }
+  }
+  
+  .about1 h3 {
+    color: var(--color-danger);
+   
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .about1 h3 {
+      font-size: 22px;
+    }
+  }
+  
+  .about1 .nav-pills {
+    border-bottom: 1px solid rgba(var(--color-danger), 0.2);
+  }
+  
+  .about1 .nav-pills li+li {
+    margin-left: 40px;
+  }
+  
+  .about1 .nav-link {
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-danger);
+    padding: 12px 0;
+    margin-bottom: -2px;
+    border-radius: 0;
+  
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .about1 .nav-link.active {
+    color: var(--color-danger);
+    background: none;
+    border-bottom: 3px solid var(--color-danger);
+  }
+  
+  @media (max-width: 575px) {
+    .about1 .nav-link {
+      font-size: 16px;
+    }
+  }
+  
+  .about1 .tab-content h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--color-secondary);
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .about1 .tab-content i {
+    font-size: 22px;
+    line-height: 0;
+    margin-right: 8px;
+    color: var(--color-danger);
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .about1 p{
+    font-size: 15px;
+  }
+  .round-check {
+    display: inline-block;
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+    border-radius: 50%; /* Makes it round */
+    background-color: var(--color-danger); /* Color of the checkmark */
+    color: #fff; /* Color of the icon */
+    text-align: center;
+    line-height: 24px;
+}
+
+#about .cta-btn {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 7px 25px;
+  border-radius: 12px;
+  transition: 0.5s;
+  margin-top: 8px;
+  background: black;
+}
+
+#about .cta-btn:hover {
+  background: #e03a3c;
+}
+
+.i1 p{
+  font-size: 14px;
+}
+
